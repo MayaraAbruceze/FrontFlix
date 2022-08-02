@@ -1,0 +1,195 @@
+:root{
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+body{
+    background: var(--preta);
+    font-family: 'Arial', Times, serif;
+    color: #fff;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    margin-left: 5px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;    
+}
+
+/*filme principal*/
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/banner.png');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.filme-principal .titulo{
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 40px;
+    margin-top: 15%;
+}
+
+.botao{
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;    
+}
+
+.botao a{
+    color: white;
+    text-decoration: none;
+}
+
+.botao a:hover{
+    color: black;
+}
+
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-livros{
+    height: 400px;
+    width: 300px;
+    display: block;
+}
+
+.carrossel-livros{
+    margin-top: 5px;
+}
+
+.carrossel-livros .pastas{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.box-filmes{
+    height: 400px;
+    width: 300px;
+    display: block;
+}
+
+.carrossel-filmes{
+    margin-top: 5px;
+}
+
+.carrossel-filmes .pastas{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.box-canais{
+    height: 300px;
+    width: 300px;
+    display: block;
+}
+
+.carrossel-canais{
+    margin-top: 5px;
+}
+
+.carrossel-canais .pastas{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;   
+    margin-bottom: 50px;
+    color: #AAA;
+}
+
+.rodape .fa-linkedin{
+    color: #AAA;
+}
+
+.rodape .fa-linkedin:hover{
+    font-size: 35px;
+    color: var(--vermelho);
+    transition: .3s ease all;
+}
+
+.rodape .fa-square-github{
+    color: #AAA;
+}
+
+.rodape .fa-square-github:hover{
+    font-size: 35px;
+    color: var(--vermelho);
+    transition: .3s ease all;
+}
+
+.rodape-titulo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.rodape .icones-rodape{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 30px;    
+}
+
